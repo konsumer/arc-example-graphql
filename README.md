@@ -2,6 +2,8 @@
 
 ![screenshot](./screenshot.png)
 
+You can see it deployed, [here](https://snow-zir-staging.begin.app/graphql).
+
 ```
 npm i          # install tools & dependencies
 npm start      # run local dev-server
