@@ -3,24 +3,21 @@ const { makeExecutableSchema } = require('graphql-tools')
 
 var typeDefs = `
   type Query {
-    hello: String
+    hello(name: String = "World"): String
   }
   type Mutation {
-    hello: String
+    hello(name: String = "World"): String
   }
 `
 
-let helloMessage = 'World!'
+const hello = (_, { name }) => `Hello ${name}!`
 
 const resolvers = {
   Query: {
-    hello: () => helloMessage
+    hello
   },
   Mutation: {
-    hello: (_, helloData) => {
-      helloMessage = helloData.message
-      return helloMessage
-    }
+    hello
   }
 }
 
