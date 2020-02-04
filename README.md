@@ -1,5 +1,7 @@
 # minimal arc graphql example
 
+![screenshot](./screenshot.png)
+
 ```
 npm i          # install tools & dependencies
 npm start      # run local dev-server
