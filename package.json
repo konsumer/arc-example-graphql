@@ -1,0 +1,17 @@
+{
+  "name": "arc-example-graphql",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "arc sandbox"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "devDependencies": {
+    "@architect/architect": "^6.1.9"
+  },
+  "dependencies": {
+    "graphql": "^14.6.0",
+    "graphql-tools": "^4.0.6"
+  }
+}
