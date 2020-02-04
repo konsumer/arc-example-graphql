@@ -2,7 +2,8 @@
   "name": "arc-example-graphql",
   "version": "0.0.0",
   "scripts": {
-    "start": "arc sandbox"
+    "start": "arc sandbox",
+    "deploy": "arc deploy"
   },
   "keywords": [],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
