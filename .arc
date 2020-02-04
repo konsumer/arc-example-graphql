@@ -3,4 +3,5 @@ graphql-example
 
 @http
 post /graphql
-get /graphql
+
+@static

@@ -2,7 +2,7 @@
   "name": "arc-example-graphql",
   "version": "0.0.0",
   "scripts": {
-    "start": "arc sandbox",
+    "start": "ARC_STATIC_SPA=false arc sandbox",
     "deploy": "arc deploy"
   },
   "keywords": [],
