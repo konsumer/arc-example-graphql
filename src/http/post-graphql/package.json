@@ -1,0 +1,7 @@
+{
+  "name": "post-graphql",
+  "dependencies": {
+    "graphql": "^14.6.0",
+    "graphql-tools": "^4.0.6"
+  }
+}

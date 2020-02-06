@@ -8,10 +8,8 @@
   "keywords": [],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
   "license": "MIT",
-  "devDependencies": {
-    "@architect/architect": "^6.1.9"
-  },
   "dependencies": {
+    "@architect/architect": "^6.1.9",
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.6"
   }
